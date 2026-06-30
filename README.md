@@ -52,4 +52,4 @@ I build practical software across AI-assisted development, SaaS foundations, voi
 
 ---
 
-**Currently:** building AI-assisted workflow tools, voice interfaces, and database automation experiments.
+**Currently:** building AI-assisted workflow tools, voice interfaces, and database automation.
