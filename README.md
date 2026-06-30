@@ -4,7 +4,7 @@
 
 > I like turning rough product ideas into working tools: ship a small version, test it, then harden the useful parts.
 
-I build practical software experiments across AI-assisted development, SaaS foundations, voice tools, search/ranking, and data infrastructure. My public work is a mix of original projects, product prototypes, and carefully adapted open-source starters.
+I build practical software across AI-assisted development, SaaS foundations, voice tools, and data infrastructure. This profile highlights selected public work only, so the page stays focused on projects that are useful to inspect.
 
 [GitHub](https://github.com/eyeinthesky6) · [X / Twitter](https://x.com/eyeinthesky)
 
@@ -24,12 +24,11 @@ I build practical software experiments across AI-assisted development, SaaS foun
 
 **[Preditorium Prophecy](https://github.com/eyeinthesky6/preditorium-prophecy)** - static website for *The Preditorium Prophecy: The Golden Statue*, deployed through Vercel with a hosted chapter reader, sitemap, robots metadata, and install assets.
 
-## Experiments and Adapted Work
+## Current Experiments
 
-- **[Uvacha](https://github.com/eyeinthesky6/Uvacha)** - voice-to-text desktop assistant work using Tauri, TypeScript, Rust, Whisper, and Groq. Forked from a Tauri starter and adapted toward a voice-first product.
-- **[VibeKit](https://github.com/eyeinthesky6/VibeKit)** - SaaS starter exploration based on `nextjs/saas-starter`, with Supabase auth, Stripe billing, RBAC, usage analytics, and dashboard flows.
-- **[rankwithai](https://github.com/eyeinthesky6/rankwithai)** - Next.js / Firebase Studio starter for AI ranking experiments.
-- **[chessideas_v0_abandoned](https://github.com/eyeinthesky6/chessideas_v0_abandoned)** - TypeScript chess-training experiment based on past games.
+**[Uvacha](https://github.com/eyeinthesky6/Uvacha)** - voice-to-text desktop assistant work using Tauri, TypeScript, Rust, Whisper, and Groq.
+
+**[VibeKit](https://github.com/eyeinthesky6/VibeKit)** - SaaS starter exploration with Supabase auth, Stripe billing, RBAC, usage analytics, and dashboard flows.
 
 ## Tech Stack
 
