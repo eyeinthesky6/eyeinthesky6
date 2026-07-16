@@ -1,6 +1,6 @@
 # Hey, I'm Jai
 
-**I build practical open-source tools that remove repetitive work.**
+**AI/Product/Ops operator & fractional AI co-founder · 19 yrs in fintech, payments & startups — building practical AI workflow systems.**
 
 > Most of these projects started as side explorations around a real pain. They
 > became tools other people can install, inspect, and run for themselves.
