@@ -1,49 +1,84 @@
 # Hey, I'm Jai
 
-**AI-assisted product builder · workflow tooling · voice UX · database automation**
+**I build practical open-source tools that remove repetitive work.**
 
-> I like turning rough product ideas into working tools: ship a small version, test it, then harden the useful parts.
+> Most of these projects started as side explorations around a real pain. They
+> became tools other people can install, inspect, and run for themselves.
 
-I build practical software across AI-assisted development, SaaS foundations, voice tools, and data infrastructure. This profile highlights selected public work only, so the page stays focused on projects that are useful to inspect.
+My current work sits where AI-assisted workflows, developer tools, PostgreSQL
+safety, and small self-serve products meet.
 
-[GitHub](https://github.com/eyeinthesky6) · [X / Twitter](https://x.com/eyeinthesky)
+[GitHub](https://github.com/eyeinthesky6) · [X](https://x.com/eyeinthesky)
 
-## What I Build
+## Active Open Source
 
-- **AI-assisted development workflows** - tools that help developers plan, execute, review, and adapt work inside real projects
-- **SaaS foundations** - authentication, billing, dashboards, roles, usage analytics, and protected product flows
-- **Voice-first tools** - speech-to-text and assistant-style interfaces built with desktop-first stacks
-- **Database automation** - Postgres indexing, query-pattern measurement, and performance experiments
-- **Static and product websites** - fast deployable sites with SEO/AEO support and clean project structure
+### [IndexPilot](https://github.com/eyeinthesky6/indexpilot)
 
-## Highlighted Work
+**Stop bad PostgreSQL indexes before they reach production.**
 
-**[SkillKit](https://github.com/eyeinthesky6/SkillKit)** - self-customizing workflow orchestration for AI-assisted development. It focuses on doc-based workflows, terminal-aware skill loading, project-aware setup, health checks, and a GitHub-based marketplace path.
+When someone proposes a new index, the hard part is deciding whether the
+workload needs it, whether something similar already exists, and whether the
+evidence is strong enough to approve it. IndexPilot turns those questions into
+a read-only review before anything changes.
 
-**[IndexPilot](https://github.com/eyeinthesky6/indexpilot)** - a thin control layer on top of Postgres for automatic index management. It tracks schema metadata, query stats, index changes, and before/after measurement so optimization decisions can be tested instead of guessed.
+[Website](https://eyeinthesky6.github.io/indexpilot/) ·
+[Source](https://github.com/eyeinthesky6/indexpilot) ·
+[Releases](https://github.com/eyeinthesky6/indexpilot/releases)
 
-**[Preditorium Prophecy](https://github.com/eyeinthesky6/preditorium-prophecy)** - static website for *The Preditorium Prophecy: The Golden Statue*, deployed through Vercel with a hosted chapter reader, sitemap, robots metadata, and install assets.
+### [ApplyCue](https://github.com/eyeinthesky6/applycue)
 
-## Current Experiments
+**Let an agent do the repetitive job-search work while you keep every important
+decision.**
 
-**[Uvacha](https://github.com/eyeinthesky6/Uvacha)** - voice-to-text desktop assistant work using Tauri, TypeScript, Rust, Whisper, and Groq.
+ApplyCue checks approved job sources and alerts, reads full job descriptions,
+shortlists relevant roles, creates truthful role-specific CVs, and applies only
+after permission for the named application.
 
-**[VibeKit](https://github.com/eyeinthesky6/VibeKit)** - SaaS starter exploration with Supabase auth, Stripe billing, RBAC, usage analytics, and dashboard flows.
+[Source](https://github.com/eyeinthesky6/applycue) ·
+[Latest release](https://github.com/eyeinthesky6/applycue/releases/tag/ApplyCue-v0.1.0)
 
-## Tech Stack
+### [Codex Coordinator](https://github.com/eyeinthesky6/codex-coordinator)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+**Keep several Codex tasks from colliding inside the same repository.**
+
+Codex Coordinator breaks a large goal into bounded tasks and records who owns
+each change, what is blocked, and how work continues after a pause or restart.
+It uses small repository records instead of another service, database, or
+dashboard.
+
+[Source](https://github.com/eyeinthesky6/codex-coordinator) ·
+[Latest release](https://github.com/eyeinthesky6/codex-coordinator/releases/tag/v0.1.7)
+
+### [ArtistPass](https://github.com/eyeinthesky6/artistpass)
+
+**Give casting and booking teams one polished link instead of scattered reels,
+headshots, PDFs, and profiles.**
+
+ArtistPass is a deployable actor and artist portfolio template with a showreel,
+headshots, casting card, resume, contact flows, and browser-based publishing
+without a heavy CMS.
+
+[Project site](https://eyeinthesky6.github.io/artistpass/) ·
+[Live demo](https://artistpass.vercel.app) ·
+[Source](https://github.com/eyeinthesky6/artistpass) ·
+[Latest release](https://github.com/eyeinthesky6/artistpass/releases/tag/v0.1.2)
+
+## How I Build
+
+- Start with a specific pain and a working path through it.
+- Keep the product self-serve so it can be installed, used, and handed over
+  without founder-operated services.
+- Automate repetitive work while leaving consequential decisions with the user.
+- Ship public docs, demos, tests, and releases so claims can be checked.
+
+## Current Tools
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat&logo=tauri&logoColor=white)
-![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat&logo=shadcnui&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ## Connect
 
@@ -52,4 +87,5 @@ I build practical software across AI-assisted development, SaaS foundations, voi
 
 ---
 
-**Currently:** building AI-assisted workflow tools, voice interfaces, and database automation.
+**Currently:** improving IndexPilot, ApplyCue, Codex Coordinator, and ArtistPass
+from real usage and contributor feedback.
