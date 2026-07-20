@@ -1,91 +1,85 @@
-# Hey, I'm Jai
+<p align="center">
+  <img src="./assets/profile-hero.svg" width="100%" alt="Jai — building practical AI systems where product, operations, and open source meet">
+</p>
 
-**AI/Product/Ops operator & fractional AI co-founder · 19 yrs in fintech, payments & startups — building practical AI workflow systems.**
+<p align="center">
+  <a href="https://jaithakur.in"><img src="https://img.shields.io/badge/jaithakur.in-111318?style=flat-square&logo=safari&logoColor=ffffff" alt="Website"></a>
+  <a href="https://x.com/eyeinthesky"><img src="https://img.shields.io/badge/@eyeinthesky-111318?style=flat-square&logo=x&logoColor=ffffff" alt="X"></a>
+  <a href="https://github.com/eyeinthesky6?tab=repositories"><img src="https://img.shields.io/badge/public_builds-b8f34a?style=flat-square&logo=github&logoColor=111318" alt="Public repositories"></a>
+</p>
 
-> Most of these projects started as side explorations around a real pain. They
-> became tools other people can install, inspect, and run for themselves.
+I turn awkward, repetitive work into small systems people can inspect and run themselves. My work
+sits across AI-assisted workflows, developer tooling, PostgreSQL safety, and self-serve products.
+The common thread is simple: automate the repetition, keep consequential decisions with the user.
 
-My current work sits where AI-assisted workflows, developer tools, PostgreSQL
-safety, and small self-serve products meet.
+## Building now
 
-[GitHub](https://github.com/eyeinthesky6) · [X](https://x.com/eyeinthesky)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/eyeinthesky6/indexpilot">IndexPilot</a></h3>
+      <p><strong>Stop bad PostgreSQL indexes before production.</strong></p>
+      <p>A read-only evidence check for the exact <code>CREATE INDEX</code> a team wants to merge. It compares the proposal with workload signals and existing indexes without applying the migration.</p>
+      <p>
+        <a href="https://eyeinthesky6.github.io/indexpilot/">Website</a> ·
+        <a href="https://github.com/eyeinthesky6/indexpilot">Source</a> ·
+        <a href="https://github.com/eyeinthesky6/indexpilot/releases">Releases</a>
+      </p>
+      <a href="https://github.com/eyeinthesky6/indexpilot/releases"><img src="https://img.shields.io/github/v/release/eyeinthesky6/indexpilot?include_prereleases&amp;sort=semver&amp;style=flat-square&amp;label=current" alt="Current IndexPilot release"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/eyeinthesky6/codex-coordinator">Codex Coordinator</a></h3>
+      <p><strong>Keep parallel Codex tasks from colliding.</strong></p>
+      <p>A repository-native coordination layer that records ownership, handoffs, blockers, and resumable state without requiring another hosted service.</p>
+      <p>
+        <a href="https://eyeinthesky6.github.io/codex-coordinator/">Website</a> ·
+        <a href="https://github.com/eyeinthesky6/codex-coordinator">Source</a> ·
+        <a href="https://github.com/eyeinthesky6/codex-coordinator/releases">Releases</a>
+      </p>
+      <a href="https://github.com/eyeinthesky6/codex-coordinator/releases"><img src="https://img.shields.io/github/v/release/eyeinthesky6/codex-coordinator?sort=semver&amp;style=flat-square&amp;label=current" alt="Current Codex Coordinator release"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/eyeinthesky6/applycue">ApplyCue</a></h3>
+      <p><strong>Let an agent handle job-search repetition, not your decisions.</strong></p>
+      <p>ApplyCue reviews approved sources and full job descriptions, prepares truthful role-specific material, and applies only with named permission.</p>
+      <p>
+        <a href="https://github.com/eyeinthesky6/applycue">Source</a> ·
+        <a href="https://github.com/eyeinthesky6/applycue/releases">Releases</a>
+      </p>
+      <a href="https://github.com/eyeinthesky6/applycue/releases"><img src="https://img.shields.io/github/v/release/eyeinthesky6/applycue?sort=semver&amp;style=flat-square&amp;label=current" alt="Current ApplyCue release"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/eyeinthesky6/artistpass">ArtistPass</a></h3>
+      <p><strong>One polished link for an artist's working identity.</strong></p>
+      <p>An open-source portfolio template for showreels, headshots, casting details, resumes, contact flows, and browser-based publishing without a heavy CMS.</p>
+      <p>
+        <a href="https://eyeinthesky6.github.io/artistpass/">Project site</a> ·
+        <a href="https://artistpass.vercel.app">Live demo</a> ·
+        <a href="https://github.com/eyeinthesky6/artistpass/releases">Releases</a>
+      </p>
+      <a href="https://github.com/eyeinthesky6/artistpass/releases"><img src="https://img.shields.io/github/v/release/eyeinthesky6/artistpass?sort=semver&amp;style=flat-square&amp;label=current" alt="Current ArtistPass release"></a>
+    </td>
+  </tr>
+</table>
 
-## Active Open Source
+<p align="right"><a href="https://github.com/eyeinthesky6?tab=repositories"><strong>Browse every public repository →</strong></a></p>
 
-### [IndexPilot](https://github.com/eyeinthesky6/indexpilot)
+## How I work
 
-**Stop bad PostgreSQL indexes before they reach production.**
+| 01 — Find the friction | 02 — Keep the boundary | 03 — Ship the proof |
+|---|---|---|
+| Start from a real workflow that is wasting time or hiding a decision. | Automate repeated work while leaving high-impact choices with a person. | Make the claim checkable through public code, docs, tests, demos, and releases. |
 
-When someone proposes a new index, the hard part is deciding whether the
-workload needs it, whether something similar already exists, and whether the
-evidence is strong enough to approve it. IndexPilot turns those questions into
-a read-only review before anything changes.
+## Current toolkit
 
-[Website](https://eyeinthesky6.github.io/indexpilot/) ·
-[Source](https://github.com/eyeinthesky6/indexpilot) ·
-[Releases](https://github.com/eyeinthesky6/indexpilot/releases)
+<p>
+  <img src="https://img.shields.io/badge/Python-111318?style=flat-square&logo=python&logoColor=b8f34a" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-111318?style=flat-square&logo=typescript&logoColor=b8f34a" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-111318?style=flat-square&logo=nextdotjs&logoColor=b8f34a" alt="Next.js">
+  <img src="https://img.shields.io/badge/PostgreSQL-111318?style=flat-square&logo=postgresql&logoColor=b8f34a" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/GitHub_Actions-111318?style=flat-square&logo=githubactions&logoColor=b8f34a" alt="GitHub Actions">
+</p>
 
-### [ApplyCue](https://github.com/eyeinthesky6/applycue)
-
-**Let an agent do the repetitive job-search work while you keep every important
-decision.**
-
-ApplyCue checks approved job sources and alerts, reads full job descriptions,
-shortlists relevant roles, creates truthful role-specific CVs, and applies only
-after permission for the named application.
-
-[Source](https://github.com/eyeinthesky6/applycue) ·
-[Latest release](https://github.com/eyeinthesky6/applycue/releases/tag/ApplyCue-v0.1.0)
-
-### [Codex Coordinator](https://github.com/eyeinthesky6/codex-coordinator)
-
-**Keep several Codex tasks from colliding inside the same repository.**
-
-Codex Coordinator breaks a large goal into bounded tasks and records who owns
-each change, what is blocked, and how work continues after a pause or restart.
-It uses small repository records instead of another service, database, or
-dashboard.
-
-[Source](https://github.com/eyeinthesky6/codex-coordinator) ·
-[Latest release](https://github.com/eyeinthesky6/codex-coordinator/releases/tag/v0.1.7)
-
-### [ArtistPass](https://github.com/eyeinthesky6/artistpass)
-
-**Give casting and booking teams one polished link instead of scattered reels,
-headshots, PDFs, and profiles.**
-
-ArtistPass is a deployable actor and artist portfolio template with a showreel,
-headshots, casting card, resume, contact flows, and browser-based publishing
-without a heavy CMS.
-
-[Project site](https://eyeinthesky6.github.io/artistpass/) ·
-[Live demo](https://artistpass.vercel.app) ·
-[Source](https://github.com/eyeinthesky6/artistpass) ·
-[Latest release](https://github.com/eyeinthesky6/artistpass/releases/tag/v0.1.2)
-
-## How I Build
-
-- Start with a specific pain and a working path through it.
-- Keep the product self-serve so it can be installed, used, and handed over
-  without founder-operated services.
-- Automate repetitive work while leaving consequential decisions with the user.
-- Ship public docs, demos, tests, and releases so claims can be checked.
-
-## Current Tools
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-
-## Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eyeinthesky6)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/eyeinthesky)
-
----
-
-**Currently:** improving IndexPilot, ApplyCue, Codex Coordinator, and ArtistPass
-from real usage and contributor feedback.
+<sub>AI / Product / Operations · 19 years across fintech, payments, and startups · building in public from India</sub>
