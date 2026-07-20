@@ -1,0 +1,41 @@
+name: Profile checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
+        with:
+          fetch-depth: 0
+      - name: Keep project links release-safe
+        run: |
+          if grep -F '/releases/tag/' README.md; then
+            echo 'Use a durable /releases link and a live release badge instead of pinning the profile to one version.' >&2
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          ElementTree.parse("assets/profile-hero.svg")
+          for project in ("indexpilot", "applycue", "codex-coordinator", "artistpass"):
+              assert f"https://github.com/eyeinthesky6/{project}/releases" in readme
+          PY
+      - name: Install checksum-verified Gitleaks
+        run: |
+          curl --fail --location --silent --show-error \
+            --output gitleaks.tar.gz \
+            https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          echo '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  gitleaks.tar.gz' | sha256sum --check
+          tar --extract --gzip --file gitleaks.tar.gz gitleaks
+      - name: Scan profile history for secrets
+        run: ./gitleaks git --redact --no-banner
