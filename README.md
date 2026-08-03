@@ -62,6 +62,19 @@ The common thread is simple: automate the repetition, keep consequential decisio
       <a href="https://github.com/eyeinthesky6/artistpass/releases"><img src="https://img.shields.io/github/v/release/eyeinthesky6/artistpass?sort=semver&amp;style=flat-square&amp;label=current" alt="Current ArtistPass release"></a>
     </td>
   </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <h3><a href="https://github.com/eyeinthesky6/openpatrol">OpenPatrol</a></h3>
+      <p><strong>Open security. Human control.</strong></p>
+      <p>An open, local-first command centre that unifies existing cameras, security systems, patrol robots and drones into one human-reviewed incident, evidence and alert workflow. The repository includes the working software prototype, ROS/Gazebo simulation, firmware interfaces, parametric CAD, BOMs and Rev-A engineering specifications.</p>
+      <p>
+        <a href="https://eyeinthesky6.github.io/openpatrol/">Project site</a> ·
+        <a href="https://github.com/eyeinthesky6/openpatrol">Source</a> ·
+        <a href="https://github.com/eyeinthesky6/openpatrol/tree/main/hardware">Engineering files</a>
+      </p>
+      <img src="https://img.shields.io/badge/status-completed_digital_prototype-ff5a1f?style=flat-square" alt="Completed digital engineering prototype">
+    </td>
+  </tr>
 </table>
 
 <p align="right"><a href="https://github.com/eyeinthesky6?tab=repositories"><strong>Browse every public repository →</strong></a></p>
