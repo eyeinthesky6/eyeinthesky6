@@ -12,6 +12,17 @@ I turn awkward, repetitive work into small systems people can inspect and run th
 sits across AI-assisted workflows, developer tooling, PostgreSQL safety, and self-serve products.
 The common thread is simple: automate the repetition, keep consequential decisions with the user.
 
+## The build trail
+
+<p align="center">
+  <img src="./assets/build-trail.svg" width="100%" alt="Jai's build trail: operate, build, open, partner">
+</p>
+
+The repositories below are not a collection of disconnected experiments. They trace one operating
+idea: start with work I understand firsthand, turn the repeated parts into a system, and publish
+enough evidence for someone else to inspect the claim. Today I bring that same loop into founder
+teams as a fractional AI co-founder.
+
 ## Building now
 
 <table>

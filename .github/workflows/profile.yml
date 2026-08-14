@@ -27,6 +27,7 @@ jobs:
 
           readme = Path("README.md").read_text(encoding="utf-8")
           ElementTree.parse("assets/profile-hero.svg")
+          ElementTree.parse("assets/build-trail.svg")
           for project in ("indexpilot", "applycue", "codex-coordinator", "artistpass"):
               assert f"https://github.com/eyeinthesky6/{project}/releases" in readme
           PY
